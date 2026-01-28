@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Premium software development and digital design agency">
     <title>Nexora Digital | Creative Software Solutions</title>
-     <meta name="description" content="Nexora Digital is a premium creative agency specializing in web development, visual design, brand identity, and VTuber assets. We craft digital experiences that captivate and convert.">
-    <meta name="keywords" content="Creative Agency, Web Development, Visual Design, Brand Identity, VTuber Assets, Digital Experiences, Premium Agency">
-    <meta name="author" content="Nexora Digital">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,7 +65,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+        <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-bg">
             <div class="gradient-orb orb-1"></div>
@@ -118,22 +115,129 @@
             </div>
             
             <div class="hero-visual reveal-scale" data-delay="500">
-                <div class="glass-card floating">
-                    <div class="card-grid">
-                        <div class="grid-item"></div>
-                        <div class="grid-item active"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
+                <!-- Main Browser Mockup -->
+                <div class="browser-mockup floating">
+                    <div class="browser-header">
+                        <div class="traffic-lights">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="browser-address-bar">
+                            <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                            <span>nexora.digital</span>
+                        </div>
+                        <div class="browser-menu">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="1"></circle>
+                                <circle cx="19" cy="12" r="1"></circle>
+                                <circle cx="5" cy="12" r="1"></circle>
+                            </svg>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <div class="line"></div>
-                        <div class="line short"></div>
+                    
+                    <div class="browser-content">
+                        <div class="mockup-dashboard">
+                            <!-- Sidebar -->
+                            <div class="mockup-sidebar">
+                                <div class="sidebar-logo">◆</div>
+                                <div class="sidebar-nav">
+                                    <div class="nav-item active"></div>
+                                    <div class="nav-item"></div>
+                                    <div class="nav-item"></div>
+                                    <div class="nav-item"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Main Content -->
+                            <div class="mockup-main">
+                                <div class="mockup-header">
+                                    <div class="header-title"></div>
+                                    <div class="header-actions">
+                                        <div class="action-btn"></div>
+                                        <div class="action-btn primary"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mockup-stats-row">
+                                    <div class="stat-box">
+                                        <div class="stat-label-bar"></div>
+                                        <div class="stat-value-bar"></div>
+                                        <div class="stat-trend up">↗ 24%</div>
+                                    </div>
+                                    <div class="stat-box">
+                                        <div class="stat-label-bar"></div>
+                                        <div class="stat-value-bar short"></div>
+                                        <div class="stat-trend up">↗ 12%</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mockup-chart">
+                                    <div class="chart-header">
+                                        <div class="chart-title"></div>
+                                        <div class="chart-legend">
+                                            <span class="legend-item blue"></span>
+                                            <span class="legend-item purple"></span>
+                                        </div>
+                                    </div>
+                                    <div class="chart-visual">
+                                        <svg viewBox="0 0 300 100" preserveAspectRatio="none" class="chart-line">
+                                            <defs>
+                                                <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                                    <stop offset="0%" style="stop-color:hsl(var(--primary-hue), 90%, 60%);stop-opacity:0.3" />
+                                                    <stop offset="100%" style="stop-color:hsl(var(--primary-hue), 90%, 60%);stop-opacity:0" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M0 80 Q 50 70, 100 50 T 200 40 T 300 20" 
+                                                  fill="none" 
+                                                  stroke="hsl(var(--primary-hue), 90%, 60%)" 
+                                                  stroke-width="3"
+                                                  stroke-linecap="round"/>
+                                            <path d="M0 80 Q 50 70, 100 50 T 200 40 T 300 20 V 100 H 0 Z" 
+                                                  fill="url(#chartGradient)"/>
+                                            
+                                            <circle cx="300" cy="20" r="4" fill="white" stroke="hsl(var(--primary-hue), 90%, 60%)" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="floating-elements">
-                    <div class="float-item item-1">🎨</div>
-                    <div class="float-item item-2">⚡</div>
-                    <div class="float-item item-3">🚀</div>
+                
+                <!-- Floating Elements -->
+                <div class="floating-element code-card" data-speed="0.8">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-text">index.html</span>
+                    </div>
+                    <div class="code-body">
+                        <div class="code-line"><span class="code-tag">&lt;div</span> <span class="code-attr">class</span>=<span class="code-val">"hero"</span><span class="code-tag">&gt;</span></div>
+                        <div class="code-line indent"><span class="code-tag">&lt;h1&gt;</span>Hello World<span class="code-tag">&lt;/h1&gt;</span></div>
+                        <div class="code-line"><span class="code-tag">&lt;/div&gt;</span></div>
+                    </div>
+                </div>
+                
+                <div class="floating-element notification-card" data-speed="1.2">
+                    <div class="notif-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="notif-content">
+                        <div class="notif-title">Project Delivered</div>
+                        <div class="notif-time">Just now</div>
+                    </div>
+                </div>
+                
+                <div class="floating-element color-palette" data-speed="1.0">
+                    <div class="palette-color" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="palette-color" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="palette-color" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="palette-info">UI Kit</div>
                 </div>
             </div>
         </div>
