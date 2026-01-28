@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium software development and digital design agency">
+    <title>Nexora Digital | Creative Software Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Nexora</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <div class="toggle-icon">
+                            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                            <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    
+                    <a href="#contact" class="btn btn-primary">Start Project</a>
+                </div>
+            </div>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal-up">
+                    <span class="badge-dot"></span>
+                    Premium Digital Agency
+                </div>
+                
+                <h1 class="hero-title reveal-up" data-delay="100">
+                    We Craft Digital
+                    <span class="gradient-text">Experiences</span>
+                    That Matter
+                </h1>
+                
+                <p class="hero-description reveal-up" data-delay="200">
+                    Elevate your brand with cutting-edge web development, stunning visual designs, 
+                    and comprehensive software solutions that drive growth and engagement.
+                </p>
+                
+                <div class="hero-actions reveal-up" data-delay="300">
+                    <a href="#portfolio" class="btn btn-glow">View Our Work</a>
+                    <a href="#services" class="btn btn-outline">Our Services</a>
+                </div>
+                
+                <div class="hero-stats reveal-up" data-delay="400">
+                    <div class="stat-item">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-scale" data-delay="500">
+                <div class="glass-card floating">
+                    <div class="card-grid">
+                        <div class="grid-item"></div>
+                        <div class="grid-item active"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-item item-1">🎨</div>
+                    <div class="float-item item-2">⚡</div>
+                    <div class="float-item item-3">🚀</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">We're a team of <span class="highlight">creative technologists</span></h2>
+                <p class="section-subtitle">Building digital products that combine innovation with exceptional design</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card reveal-left">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Modern Architecture</h3>
+                    <p>We build scalable, maintainable systems using the latest technologies and best practices in software engineering.</p>
+                </div>
+                
+                <div class="about-card reveal-up" data-delay="200">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Design First Approach</h3>
+                    <p>Every pixel matters. We create intuitive, beautiful interfaces that users love and remember.</p>
+                </div>
+                
+                <div class="about-card reveal-right" data-delay="400">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Global Reach</h3>
+                    <p>Working with clients worldwide, we deliver solutions that transcend borders and cultural boundaries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Comprehensive <span class="highlight">Digital Solutions</span></h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom, responsive websites built with modern frameworks and optimized for performance and SEO.</p>
+                    <ul class="service-list">
+                        <li>React & Next.js</li>
+                        <li>E-commerce Solutions</li>
+                        <li>Web Applications</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card reveal-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                            <path d="M2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Professional visual design services that communicate your brand message effectively.</p>
+                    <ul class="service-list">
+                        <li>Brand Identity</li>
+                        <li>Marketing Materials</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card reveal-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path>
+                        </svg>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Unique, memorable logos that capture your brand essence and stand the test of time.</p>
+                    <ul class="service-list">
+                        <li>Custom Typography</li>
+                        <li>Icon Design</li>
+                        <li>Brand Guidelines</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card reveal-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Banner & Overlay</h3>
+                    <p>Eye-catching banners and stream overlays that enhance your digital presence.</p>
+                    <ul class="service-list">
+                        <li>Social Media Banners</li>
+                        <li>Twitch/YouTube Overlays</li>
+                        <li>Ad Creatives</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card reveal-up" data-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>VTuber Design</h3>
+                    <p>Custom VTuber character designs, rigging, and assets for content creators.</p>
+                    <ul class="service-list">
+                        <li>Character Illustration</li>
+                        <li>Live2D Rigging</li>
+                        <li>Asset Creation</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card reveal-up" data-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Strategic social media management and content creation to grow your audience.</p>
+                    <ul class="service-list">
+                        <li>Content Strategy</li>
+                        <li>Community Management</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Explore our latest work and see how we've helped brands transform their digital presence</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <article class="portfolio-card reveal-up">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-1">
+                            <span class="placeholder-icon">🏌️</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://sharbari-zohra-ahmed.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Elite Athlete Portfolio</h3>
+                        <p>Professional athlete showcase website with modern animations and dynamic content management.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Framer Motion</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="portfolio-card reveal-up" data-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-2">
+                            <span class="placeholder-icon">🛡️</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://ids-ips-platform.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Cybersecurity Dashboard</h3>
+                        <p>Enterprise-grade intrusion detection and prevention system with real-time monitoring.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="portfolio-card reveal-up" data-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-3">
+                            <span class="placeholder-icon">📊</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://stratefy-digital.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Stratefy Digital</h3>
+                        <p>Digital strategy agency website featuring interactive case studies and service showcases.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Tailwind</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="portfolio-card reveal-up">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-4">
+                            <span class="placeholder-icon">🎨</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://plastering-painting.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Master Painters</h3>
+                        <p>Service-based business website with booking system and project gallery showcase.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="portfolio-card reveal-up" data-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-5">
+                            <span class="placeholder-icon">🥩</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://meat-meat.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Prime Cuts</h3>
+                        <p>Premium butcher shop e-commerce platform with delivery scheduling and subscription boxes.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="portfolio-card reveal-up" data-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-6">
+                            <span class="placeholder-icon">💅</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://venom-nails.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Venom Nails</h3>
+                        <p>High-end nail salon booking platform with style catalog and artist profiles.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 7 -->
+                <article class="portfolio-card reveal-up">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-7">
+                            <span class="placeholder-icon">⚖️</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://excolutus-alpha.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Legal Excellence</h3>
+                        <p>Law firm corporate website with case management integration and consultation booking.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 8 -->
+                <article class="portfolio-card reveal-up" data-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-8">
+                            <span class="placeholder-icon">🏔️</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="https://mntn-lake.vercel.app" target="_blank" class="btn btn-white">Visit Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>MNTN Adventures</h3>
+                        <p>Outdoor adventure travel platform with parallax scrolling and immersive visual storytelling.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">GSAP</span>
+                            <span class="tag">WebGL</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section features" id="features">
+        <div class="section-container">
+            <div class="features-wrapper">
+                <div class="features-content reveal-left">
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Results-driven approach with <span class="highlight">premium quality</span></h2>
+                    <p class="features-text">We don't just build websites—we create digital experiences that drive measurable results for your business.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Lightning Fast Performance</h4>
+                                <p>Optimized for Core Web Vitals and 90+ PageSpeed scores</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Mobile-First Design</h4>
+                                <p>Responsive layouts that look perfect on every device</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>SEO Optimized</h4>
+                                <p>Built-in best practices for search engine visibility</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-check">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>24/7 Support</h4>
+                                <p>Round-the-clock assistance and maintenance services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="features-visual reveal-right">
+                    <div class="features-card">
+                        <div class="card-header">
+                            <div class="header-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="progress-ring">
+                                <svg viewBox="0 0 100 100">
+                                    <circle class="ring-bg" cx="50" cy="50" r="45"></circle>
+                                    <circle class="ring-progress" cx="50" cy="50" r="45"></circle>
+                                </svg>
+                                <div class="ring-content">
+                                    <span class="ring-number">98%</span>
+                                    <span class="ring-label">Satisfaction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="section-container">
+            <div class="contact-wrapper">
+                <div class="contact-info reveal-left">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's build something <span class="highlight">amazing</span> together</h2>
+                    <p class="contact-text">Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond within 24 hours.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@nexora.digital</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Global Remote Team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-right">
+                    <!-- WEB3FORMS INTEGRATION START -->
+                    <!-- Get your free key at: https://web3forms.com/ -->
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        
+                        <!-- REQUIRED: Your Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="fa0a7d64-b764-4238-be45-ea92f81cf72c">
+                        
+                        <!-- Optional: Subject Line -->
+                        <input type="hidden" name="subject" value="New Portfolio Contact Form Submission">
+                        
+                        <!-- Optional: Sender Name -->
+                        <input type="hidden" name="from_name" value="Nexora Digital Website">
+                        
+                        <!-- Optional: Reply-To Email (the submitter's email will be used) -->
+                        <input type="hidden" name="replyto" value="">
+                        
+                        <!-- Optional: Redirect URL after submission (remove for AJAX) -->
+                        <!-- <input type="hidden" name="redirect" value="https://yourdomain.com/thank-you.html"> -->
+                        
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="Website Development">Website Development</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                                <option value="Logo Design">Logo Design</option>
+                                <option value="Banner/Overlay">Banner & Overlay Design</option>
+                                <option value="VTuber Design">VTuber Character Design</option>
+                                <option value="Social Media">Social Media Management</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
+                        <button type="submit" class="btn btn-glow btn-full" id="submitBtn">
+                            <span>Send Message</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                        
+                        <!-- Success/Error Message Display -->
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                    <!-- WEB3FORMS INTEGRATION END -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">◆</span>
+                        <span class="logo-text">Nexora</span>
+                    </a>
+                    <p class="footer-text">Premium digital solutions for modern businesses. We craft experiences that inspire and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Website Development</a></li>
+                        <li><a href="#services">Graphic Design</a></li>
+                        <li><a href="#services">Logo Design</a></li>
+                        <li><a href="#services">VTuber Assets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexora Digital. All rights reserved.</p>
+                <p class="made-with">Crafted with precision and passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
